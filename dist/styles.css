@@ -6,22 +6,45 @@
     outline: none;
 }
 :root{
-    --bg-color: #000;
+    --bg-color: #0B2545;
+    --font-color: #EEF4ED;
+    --bg-projects: #134074;
 }
 
 header{
     display: flex;
     text-align: center;
     justify-content: center;
+    gap: 20px;
     padding: 20px;
+    background-color: var(--bg-color);
+}
 
+.fa-meteor{
+    color: var(--font-color);
+    font-size: 30px;
 }
 
 .heading{
-    color:red;
+    color: var(--font-color);
     font-size: 1.7em;
 }
+.main{
+    display: grid;  
+}
 
+.container-most-used{
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    background-color: var(--bg-projects);
+}
+.fa-house{
+    color: var(--font-color);
+    font-size: 20px;
+}
 .footer{
     background-color: var(--bg-color);
     display: flex;
@@ -29,13 +52,13 @@ header{
     justify-content: center;
     gap: 10px;
     width: 100%;
-    color: #fff;
+    color: var(--font-color);
     padding: 20px;
 }
 
 .fa-github {
     font-size: 30px;
-    color: #fff;
+    color: var(--font-color);
     transition: transform 0.3s ease-in-out;
   }
   .fa-github:hover {
