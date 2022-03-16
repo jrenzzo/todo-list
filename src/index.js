@@ -1,3 +1,2 @@
-import './style.css';
-
-alert('heading has been changed')
+// (at the end copy the other css file) include for using css as part of webpack:
+//import './style.css';
