@@ -17,6 +17,12 @@ body{
     color: var(--font-color);
 }
 
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 header{
     display: flex;
     text-align: center;
@@ -40,6 +46,7 @@ header{
     display: grid;  
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr;
+    font-size: 18px;
 }
 
 /*MOST USED*/
@@ -60,7 +67,7 @@ header{
 }
 
 .mu-heading, .pr-heading, .task-page-heading{
-    padding: 5px;
+    padding: 15px;
     font-size: 1.7em;
     text-align: center;
 }
@@ -78,7 +85,17 @@ header{
     flex-direction: row;
     background-color: var(--bg-projects);
     padding: 10px;
-    gap:5px;
+    gap:10px;
+}
+
+.add-btn{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.add-btn:hover{
+    background-color: #fff;
 }
 
 /*TASKS*/
@@ -91,7 +108,32 @@ header{
     flex-direction: column;
 }
 
+.fa-plus{
+    margin-right: 10px;
+}
+.checkbox {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid hsla(0,0%,100%,.4);
+    cursor: pointer;
+    margin-right:15px;
+  }
 
+  .task-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin:10px;
+    border-radius: 5px;
+  }
+  .task-container:hover{
+      background-color: red;
+  }
+
+  .task-name{
+      align-self: center;
+  }
 
 /*FOOTER*/
 .footer{
