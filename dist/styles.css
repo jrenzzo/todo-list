@@ -47,6 +47,11 @@ header{
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr;
     font-size: 18px;
+    min-height: 78vh;
+}
+
+.active{
+    display: block;
 }
 
 /*MOST USED*/
@@ -96,6 +101,27 @@ header{
 
 .add-btn:hover{
     background-color: #fff;
+}
+
+.edit-popup-container{
+    display: none;
+    text-align: center;
+    margin:5px;
+}
+
+.proj-name-input{
+    padding:10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sub-btns-container{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.sub-btn{
+    width: 100%;
 }
 
 /*TASKS*/
