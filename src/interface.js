@@ -43,4 +43,4 @@ function closeTaskPopup(){
     taskPopup.classList.remove('active')
 }
 
-export default activateProjectOptions
+export {activateProjectOptions, activateTasksOptions}
