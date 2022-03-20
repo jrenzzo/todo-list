@@ -50,9 +50,6 @@ header{
     min-height: 78vh;
 }
 
-.active{
-    display: block;
-}
 
 /*MOST USED*/
 .most-used{
@@ -118,6 +115,10 @@ header{
     display: flex;
     justify-content: space-between;
     gap:10px;
+}
+
+.edit-popup-container.active{
+    display: block;
 }
 
 .sub-btn{
